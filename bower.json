@@ -1,0 +1,23 @@
+{
+  "name": "fast",
+  "authors": [
+    "taimoor_t <taimoor_t@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-material": "^1.0.7",
+    "angular-ui-router": "^0.2.18"
+  }
+}
