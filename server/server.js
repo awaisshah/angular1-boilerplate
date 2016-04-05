@@ -4,10 +4,7 @@ var mongoose = require('mongoose');
 var favicon = require('serve-favicon');
 var express = require('express');
 var logger = require('morgan');
-var bearer = require('bearer');
-var bcryptnodejs = require('bcrypt-nodejs');
 var path = require('path');
-var async = require('async');
 var Q = require('q');
 
 var app = express();
@@ -25,10 +22,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-//require all modules files
-//require('./models')(app, mongoose);
-//require('./controllers')(app, bcryptnodejs, request, Q, async, path);
-//require('./util')(app, bearer, bcryptnodejs);
+
 require('./routes')(app);
 
 
