@@ -1,0 +1,27 @@
+Dear User,
+<br>
+<br>
+Thank you for signing up !
+<br/>
+Please verify your email address (<a href="mailto:<%= email %>"><%= email %></a>)
+for the WealthTab Web App account.&nbsp; Just input below code manually into our app's confirmation screen.
+<br>
+<br>
+
+<!--Confrimation Code: <%= confirmationCode %>-->
+
+<br>
+<br>
+Verification Url  <%= baseUrl %>api/verifyCode?code=<%= confirmationCode %>
+<br>
+<br>
+<br>
+If you have any questions, contact us anytime at <a href="mailto:<%= supportEmail %>"><%= supportEmail %></a>.
+<br>
+<br>
+Best,
+<br>
+The WealthTab Team
+<br>
+<br>
+<a href="<%= webURL %>" target="_blank"><%= webURL %></a>
