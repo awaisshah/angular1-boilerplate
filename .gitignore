@@ -1,5 +1,2 @@
-node_modules
+client/vendors
 .idea
-
-# NPM errors log
-npm-debug.log

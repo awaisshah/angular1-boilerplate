@@ -1,7 +1,7 @@
 {
-  "name": "fast",
+  "name": "AVE using ui Router",
   "authors": [
-    "taimoor_t <taimoor_t@yahoo.com>"
+    "taimoor123 <taimoor_t@yahoo.com>"
   ],
   "description": "",
   "main": "",
@@ -12,12 +12,15 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "client/vendors",
     "test",
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.3",
-    "angular-material": "^1.0.7",
-    "angular-ui-router": "^0.2.18"
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-material": "~1.1.1"
+
+
   }
 }

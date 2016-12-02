@@ -1,24 +1,13 @@
 /**
- * Created by Taimoor-pc on 4/5/2016.
+ * Created by Taimoor on 6/30/2015.
  */
 
-
-/**
- * Created by Taimoor-pc on 4/5/2016.
- */
-
-
-(function() {
+(function () {
 
     angular.module("myApp")
-        .controller("ViewController", ['$state','viewService', ViewController]);
-    function ViewController($state, viewService) {
+        .controller('ViewController', [ViewController]);
 
-            this.temp = viewService.call();
-            console.log(this.temp);
-
+    function ViewController() {
+        var _self = this;
     }
-
-
-
 })();

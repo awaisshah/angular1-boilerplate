@@ -1,23 +1,16 @@
 /**
- * Created by Taimoor-pc on 4/5/2016.
+ * Created by Taimoor on 6/30/2015.
  */
 
 
-(function() {
+
+(function () {
 
     angular.module("myApp")
-        .controller("AddController", ['$state', 'addService', AddController]);
-        function AddController($state, addService) {
+        .controller("AddController", [AddController]);
 
-            console.log("add Controller");
-
-            this.user = "";
-
-            this.pushAData = function (newData) {
-                addService.insertAData(newData);
-                console.log("infunction");
-            }
-
-        }
+    function AddController() {
+        var _self = this;
+    }
 
 })();
